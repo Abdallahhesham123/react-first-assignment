@@ -1,0 +1,49 @@
+.navBar{
+
+    background-color: #2C3E50;
+   /* padding: 10px !important; */
+}
+
+.navBar_Brand{
+
+    font-size: 25px !important;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+
+.nav_link{
+
+    font-size: 1rem !important;
+    font-weight: 900 !important;
+    line-height: 1.5 !important;
+    padding: 1rem !important;
+    margin: 10px 5px;
+    transition: all 0.5s !important;
+}
+
+
+/* .nav_link:hover{
+
+    color:#1ABC9C !important;
+} */
+@media (max-width: 767px) {
+
+.navbar_toggler{
+
+    background-color:#1ABC9C !important ;
+    padding: 10px !important;
+    border-radius: 10px !important;
+}
+.navbar_toggler:hover {
+    background-color:#2b9f88 !important ; 
+}
+.navbar_toggler span{
+
+    font-size: 16px !important;
+    color:aliceblue;
+    font-weight: 700 !important;
+    text-transform: uppercase;
+   
+}
+}
