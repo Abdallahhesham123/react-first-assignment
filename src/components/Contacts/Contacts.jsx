@@ -9,7 +9,7 @@ export default function Contacts() {
   const errRef = useRef();
 
   const NAME_REGEX = /^[A-z][A-z0-9-_]{3,23}$/;
-  const EMAIL_REGEX =/^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/;
+  const EMAIL_REGEX =/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
    const PHONE_REGEX = /^[0-9][0-9]{10,13}$/;
 
 
