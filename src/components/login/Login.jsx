@@ -114,7 +114,7 @@ setTimeout(() => {
               {errMsg}
             </div>
              
-              <h1>Login</h1>
+              <h1>LOGIN_PAGE</h1>
 
               <div className={` ${styled.form_group}`}>
               <div className={` ${styled.input_group}`}>
