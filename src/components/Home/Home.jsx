@@ -15,10 +15,10 @@ export default function Home() {
   <div className={`${styled.home}`} >
       <div className={`${styled.header_cap}`}>
 
-                    <img src="./images/avataaars.svg" alt="" />
-                    <h1>START REACT</h1>
+                    <img src="./images/avataaars.svg" alt=""  className='w-25 '/>
+                    <h1 className='text-danger'>START REACT</h1>
                            <Icon color= {color} fontSize={fontSize}/>
-                    <p>Graphic Artist - Web Designer - Illustrator</p>
+                    <p className='text-danger'>Graphic Artist - Web Designer - Illustrator</p>
 
       </div>
   
