@@ -14,7 +14,7 @@ export default function ContactInfo() {
           </div>
           <div className="col-md-3 ">
             <div className={`${StyledContactInfo.social_info}`}>
-              <h3>AROUND THE WEB</h3>
+              <h3>AROUND THE WEB Info</h3>
               <ul>
                 <li>
                   {" "}
